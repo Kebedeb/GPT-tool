@@ -2,6 +2,7 @@ import os
 import requests
 import tiktoken
 import numpy as np
+import pickle
 
 # download the tiny shakespeare dataset
 input_file_path = os.path.join(os.path.dirname(__file__), 'cot_tool_data.txt')
@@ -36,6 +37,14 @@ train_ids = np.array(train_ids, dtype=np.uint16)
 val_ids = np.array(val_ids, dtype=np.uint16)
 train_ids.tofile(os.path.join(os.path.dirname(__file__), 'train.bin'))
 val_ids.tofile(os.path.join(os.path.dirname(__file__), 'val.bin'))
+
+meta = {
+    'vocab_size': 50257, 
+    'itos': itos,
+    'stoi': stoi,
+}
+with open(os.path.join(os.path.dirname(__file__), 'meta.pkl'), 'wb') as f:
+    pickle.dump(meta, f)
 
 # train.bin has 301,966 tokens
 # val.bin has 36,059 tokens
