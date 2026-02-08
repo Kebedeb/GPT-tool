@@ -22,7 +22,7 @@ itos = {i:ch for i , ch in enumerate(chars) }
 def encode(s):
     return [stoi[C] for c in s]
 def decode(l):
-    return ''.join([itos[i]for i in l]
+    return ''.join([itos[i]for i in l])
 
 # encode with tiktoken gpt2 bpe
 enc = tiktoken.get_encoding("gpt2")
