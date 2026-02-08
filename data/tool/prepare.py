@@ -4,7 +4,7 @@ import tiktoken
 import numpy as np
 
 # download the tiny shakespeare dataset
-input_file_path = os.path.join(os.path.dirname(__file__), 'basic_tool_data.txt')
+input_file_path = os.path.join(os.path.dirname(__file__), 'cot_tool_data.txt')
 
 with open(input_file_path, 'r', encoding='utf-8') as f:
     data = f.read()
@@ -22,7 +22,7 @@ itos = {i:ch for i , ch in enumerate(chars) }
 def encode(s):
     return [stoi[C] for c in s]
 def decode(l):
-    return ''.join([itos[i]for i in l]
+    return ''.join([itos[i]for i in l])
 
 # encode with tiktoken gpt2 bpe
 enc = tiktoken.get_encoding("gpt2")

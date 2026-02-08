@@ -1,5 +1,5 @@
 dataset = 'tool'
-out_dir = 'out-addition'
+out_dir = 'out-addition-cot'
 eval_interval = 250
 eval_iters = 20
 log_interval = 1
@@ -8,7 +8,7 @@ log_interval = 1
 n_layer = 4
 n_head = 4
 n_embd = 256
-block_size = 128
+block_size = 256
 batch_size = 16
 gradient_accumulation_steps = 1
 max_iters = 2000
