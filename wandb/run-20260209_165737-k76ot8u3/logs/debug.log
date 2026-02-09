@@ -1,0 +1,37 @@
+2026-02-09 16:57:37,195 INFO    MainThread:16608 [wandb_setup.py:_flush():81] Current SDK version is 0.24.0
+2026-02-09 16:57:37,195 INFO    MainThread:16608 [wandb_setup.py:_flush():81] Configure stats pid to 16608
+2026-02-09 16:57:37,195 INFO    MainThread:16608 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-02-09 16:57:37,196 INFO    MainThread:16608 [wandb_init.py:setup_run_log_directory():717] Logging user logs to C:\Users\Rayya\cs_gpt_tool\GPT-tool\wandb\run-20260209_165737-k76ot8u3\logs\debug.log
+2026-02-09 16:57:37,196 INFO    MainThread:16608 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to C:\Users\Rayya\cs_gpt_tool\GPT-tool\wandb\run-20260209_165737-k76ot8u3\logs\debug-internal.log
+2026-02-09 16:57:37,196 INFO    MainThread:16608 [wandb_init.py:init():844] calling init triggers
+2026-02-09 16:57:37,196 INFO    MainThread:16608 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'test_file': 'test_problems.txt', 'model': 'out-addition-cot', '_wandb': {}}
+2026-02-09 16:57:37,196 INFO    MainThread:16608 [wandb_init.py:init():892] starting backend
+2026-02-09 16:57:39,756 WARNING MainThread:16608 [wandb_init.py:init():1589] [no run ID] interrupted
+Traceback (most recent call last):
+  File "C:\Users\Rayya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\wandb\sdk\wandb_init.py", line 1580, in init
+    run = wi.init(run_settings, run_config, run_printer)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rayya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\wandb\sdk\wandb_init.py", line 894, in init
+    service = self._wl.ensure_service()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rayya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\wandb\sdk\wandb_setup.py", line 387, in ensure_service
+    self._connection = service_connection.connect_to_service(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rayya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\wandb\sdk\lib\service\service_connection.py", line 43, in connect_to_service
+    return _start_and_connect_service(asyncer, settings)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rayya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\wandb\sdk\lib\service\service_connection.py", line 58, in _start_and_connect_service
+    client = proc.token.connect(asyncer=asyncer)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rayya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\wandb\sdk\lib\service\service_token.py", line 151, in connect
+    reader, writer = asyncer.run(
+                     ^^^^^^^^^^^^
+  File "C:\Users\Rayya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\wandb\sdk\lib\asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\_base.py", line 451, in result
+    self._condition.wait(timeout)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\threading.py", line 355, in wait
+    waiter.acquire()
+KeyboardInterrupt

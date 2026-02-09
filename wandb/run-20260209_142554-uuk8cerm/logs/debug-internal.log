@@ -1,0 +1,12 @@
+{"time":"2026-02-09T14:25:56.6205389-05:00","level":"INFO","msg":"stream: starting","core version":"0.24.0"}
+{"time":"2026-02-09T14:25:56.8706017-05:00","level":"INFO","msg":"stream: created new stream","id":"uuk8cerm"}
+{"time":"2026-02-09T14:25:56.8711474-05:00","level":"INFO","msg":"handler: started","stream_id":"uuk8cerm"}
+{"time":"2026-02-09T14:25:56.8733345-05:00","level":"INFO","msg":"stream: started","id":"uuk8cerm"}
+{"time":"2026-02-09T14:25:56.8733345-05:00","level":"INFO","msg":"writer: started","stream_id":"uuk8cerm"}
+{"time":"2026-02-09T14:25:56.8733345-05:00","level":"INFO","msg":"sender: started","stream_id":"uuk8cerm"}
+{"time":"2026-02-09T14:26:22.1365829-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-09T14:26:22.2893016-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-09T14:26:22.2960386-05:00","level":"INFO","msg":"stream: closing","id":"uuk8cerm"}
+{"time":"2026-02-09T14:26:22.2960386-05:00","level":"INFO","msg":"handler: closed","stream_id":"uuk8cerm"}
+{"time":"2026-02-09T14:26:22.2983045-05:00","level":"INFO","msg":"sender: closed","stream_id":"uuk8cerm"}
+{"time":"2026-02-09T14:26:22.2983045-05:00","level":"INFO","msg":"stream: closed","id":"uuk8cerm"}

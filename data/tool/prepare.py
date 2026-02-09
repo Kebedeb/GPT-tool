@@ -21,7 +21,7 @@ print(f"vocab size: ",{vocab_size})
 stoi = {ch:i for i , ch in enumerate(chars) }
 itos = {i:ch for i , ch in enumerate(chars) }
 def encode(s):
-    return [stoi[C] for c in s]
+    return [stoi[c] for c in s]
 def decode(l):
     return ''.join([itos[i]for i in l])
 

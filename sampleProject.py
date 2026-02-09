@@ -80,7 +80,7 @@ def evaluate_model(out_dir, test_file):
             
             print(f"❌ Failed: No valid tool call found. Output: {output}")
 
-        results_table.add_data(prob, input_text, tool_result if tool_result else "None")
+        results_table.add_data(prob, input_text, tool_result if tool_result else "None",output)
     
     wandb.log({"Evaluation Results": results_table})
     wandb.finish()

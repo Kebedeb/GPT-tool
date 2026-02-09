@@ -1,0 +1,15 @@
+🎉 Success! 5+4 -> Tool Result: 15
+Traceback (most recent call last):
+  File "C:\Users\Rayya\cs_gpt_tool\GPT-tool\sampleProject.py", line 95, in <module>
+    evaluate_model(args.out_dir, args.test_file)
+  File "C:\Users\Rayya\cs_gpt_tool\GPT-tool\sampleProject.py", line 83, in evaluate_model
+    results_table.add_data(prob, input_text, tool_result if tool_result else "None")
+  File "C:\Users\Rayya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\wandb\sdk\data_types\table_decorators.py", line 42, in wrapper
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rayya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\wandb\sdk\data_types\table_decorators.py", line 58, in wrapper
+    res = method(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rayya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\wandb\sdk\data_types\table.py", line 520, in add_data
+    raise ValueError(
+ValueError: This table expects 4 columns: ['Problem', 'Forced Prompt', 'Tool Used', 'Result'], found 3
