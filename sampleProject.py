@@ -68,14 +68,16 @@ def evaluate_model(out_dir, test_file):
         input_text = prob + "[TOOL]"
         x = torch.tensor(encode(input_text), dtype=torch.long, device=device)[None, ...]
 
-        output = model.generate(x, max_new_tokens=100)[0].tolist()
-        tool_result = process_tool_call(output)
+        
+        tokens = model.generate(x, max_new_tokens=100)[0].tolist()
+        output = decode(tokens) # Turn numbers into text like "[TOOL]1+2[/TOOL]"
+        tool_result = process_tool_call(output) # Now the tool call can actually find "[TOOL]"
 
         if tool_result: 
-            final_output = output + tool_result + "[/TOOL]"
+            
             print(f"🎉 Success! {prob} -> Tool Result: {tool_result}")
         else: 
-            final_output = output
+            
             print(f"❌ Failed: No valid tool call found. Output: {output}")
 
         results_table.add_data(prob, input_text, tool_result if tool_result else "None")
