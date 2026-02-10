@@ -1,0 +1,35 @@
+❌ Failed: No valid tool call found. Output: 5+4[TOOL]5. Tens: [TOOL]2+9+0[/TOOL]10. Total: 105
+42+36=Let me solve this step by step. Ones: [TOOL]2+6[/TOO
+❌ Failed: No valid tool call found. Output: 7+8[TOOL]16. Tens: [TOOL]1+8+1[/TOOL]10. Total: 106
+75+40=Let me solve this step by step. Ones: [TOOL]5+0[/TO
+❌ Failed: No valid tool call found. Output: 3+4[TOOL]11. Tens: [TOOL]1+8+1[/TOOL]1. Total: 111
+55+89=Let me solve this step by step. Ones: [TOOL]5+9[/TOO
+🎉 Success! 0+2 -> Tool Result: Error: invalid literal for int() with base 10: '7. Total: 75\n27'
+🎉 Success! 0+2 -> Tool Result: Error: invalid literal for int() with base 10: '9. Total: 93\n26'
+❌ Failed: No valid tool call found. Output: 46+54[TOOL]8. Tens: [TOOL]2+5+0[/TOOL]7. Total: 78
+70+46=Let me solve this step by step. Ones: [TOOL]0+6[/TOOL]
+❌ Failed: No valid tool call found. Output: 14+87[TOOL]11. Tens: [TOOL]8+8+1[/TOOL]17. Total: 171
+22+92=Let me solve this step by step. Ones: [TOOL]2+2[/TO
+❌ Failed: No valid tool call found. Output: 84+23[TOOL]7. Tens: [TOOL]5+2+0[/TOOL]7. Total: 77
+26+37=Let me solve this step by step. Ones: [TOOL]6+7[/TOOL]
+❌ Failed: No valid tool call found. Output: 81+12[TOOL]10. Tens: [TOOL]9+1+1[/TOOL]12. Total: 120
+68+71=Let me solve this step by step. Ones: [TOOL]8+1[/TO
+❌ Failed: No valid tool call found. Output: 31+24[TOOL]8. Tens: [TOOL]3+6+0[/TOOL]9. Total: 98
+79+36=Let me solve this step by step. Ones: [TOOL]9+6[/TOOL]
+❌ Failed: No valid tool call found. Output: 195+492[TOOL]11. Tens: [TOOL]5+9+1[/TOOL]15. Total: 151
+67+73=Let me solve this step by step. Ones: [TOOL]7+3[/TO
+❌ Failed: No valid tool call found. Output: 399+250[TOOL]11. Tens: [TOOL]5+2+1[/TOOL]8. Total: 81
+94+84=Let me solve this step by step. Ones: [TOOL]4+4[/TOOL
+❌ Failed: No valid tool call found. Output: 408+915[TOOL]10. Tens: [TOOL]8+9+1[/TOOL]17. Total: 170
+19+25=Let me solve this step by step. Ones: [TOOL]9+5[/TO
+❌ Failed: No valid tool call found. Output: 364+278[TOOL]9. Tens: [TOOL]5+2+0[/TOOL]7. Total: 79
+76+56=Let me solve this step by step. Ones: [TOOL]6+6[/TOOL]
+❌ Failed: No valid tool call found. Output: 216+622[TOOL]8. Tens: [TOOL]1+7+0[/TOOL]8. Total: 88
+21+87=Let me solve this step by step. Ones: [Tnes: [TOOL]1+7
+❌ Failed: No valid tool call found. Output: 6091+6514[TOOL]13. Tens: [TOOL]3+6+1[/TOOL]10. Total: 103
+56+47=Let me solve this step by step. Ones: [TOOL]6+7[/TO
+🎉 Success! 1668+6697 -> Tool Result: Error: invalid literal for int() with base 10: '13. Tens: [T5'
+🎉 Success! 3200+6892 -> Tool Result: Error: invalid literal for int() with base 10: '8. Tens: [T4'
+❌ Failed: No valid tool call found. Output: 1751+9683[TOOL]11. Tens: [TOOL]8+1[/TOOL]18. Total: 181
+18+57=Let me solve this step by step. Ones: [TOOL]8+8[/TOOL
+🎉 Success! 8624+2607 -> Tool Result: Error: invalid literal for int() with base 10: '9. Tens: [T6'

@@ -1,0 +1,59 @@
+_wandb:
+    value:
+        cli_version: 0.24.0
+        e:
+            nkzb5k68afu9ra5xswulsjolftfljqpk:
+                args:
+                    - --out_dir=out-addition-cot
+                    - --test_file=test_problems.txt
+                codePath: sampleProject.py
+                codePathLocal: sampleProject.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "12.5"
+                disk:
+                    /:
+                        total: "509722226688"
+                        used: "451441401856"
+                email: madraswr@dickinson.edu
+                executable: C:\Users\Rayya\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe
+                git:
+                    commit: 297d704dab7232d8e3296bc545846966967ecdbc
+                    remote: https://github.com/Kebedeb/GPT-tool.git
+                gpu: NVIDIA GeForce RTX 3050 6GB Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 2560
+                      memoryTotal: "6442450944"
+                      name: NVIDIA GeForce RTX 3050 6GB Laptop GPU
+                      uuid: GPU-3b1bc199-be1e-bddb-f881-bfe766e35c3b
+                host: LAPTOP-FP07G2J0
+                memory:
+                    total: "14702026752"
+                os: Windows-11-10.0.26200-SP0
+                program: C:\Users\Rayya\cs_gpt_tool\GPT-tool\sampleProject.py
+                python: CPython 3.12.10
+                root: C:\Users\Rayya\cs_gpt_tool\GPT-tool
+                startedAt: "2026-02-09T23:44:47.039530Z"
+                writerId: nkzb5k68afu9ra5xswulsjolftfljqpk
+        m: []
+        python_version: 3.12.10
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 13
+                - 16
+            "4": 3.12.10
+            "5": 0.24.0
+            "8":
+                - 3
+            "12": 0.24.0
+            "13": windows-amd64
+model:
+    value: out-addition-cot
+test_file:
+    value: test_problems.txt

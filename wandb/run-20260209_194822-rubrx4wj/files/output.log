@@ -1,0 +1,44 @@
+RAW OUTPUT for 5+4: 5+4=Let me se the tool o the total sm: [TOOL]8+9[/TOOL]15. Tens: [TOOL]2+4+1[/TOOL]7.
+🎉 Success! 5+4 -> Tool Result: 17
+RAW OUTPUT for 7+8: 7+8=Let me se the tool o the total sm: [TOOL]77+9[/TOOL]15. Tens: [TOOL]9+2+1[/TOOL]1
+🎉 Success! 7+8 -> Tool Result: 86
+RAW OUTPUT for 3+4: 3+4=Let me se the tool o the total sm: [TOOL]6+6[/TOOL]12. Tens: [TOOL]8+6+1[/TOOL]15
+🎉 Success! 3+4 -> Tool Result: 12
+RAW OUTPUT for 0+2: 0+2=Let me se the tool o the total sm: [TOOL]5+9[/TOOL]14. Tens: [TOOL]1+2+1[/TOOL]4.
+🎉 Success! 0+2 -> Tool Result: 14
+RAW OUTPUT for 0+2: 0+2=Let me se the tool o the total sm: [TOOL]2+1[/TOOL]4. Tens: [TOOL]2+2+0[/TOOL]4.
+🎉 Success! 0+2 -> Tool Result: 3
+RAW OUTPUT for 46+54: 46+54=Let me se the tool o the total sm: [TOOL]7+4[/TOOL]11. Tetal: 11
+28+84=Let me sol
+🎉 Success! 46+54 -> Tool Result: 11
+RAW OUTPUT for 14+87: 14+87=Let me se the tool o the total sm: [TOOL]10. Tens: [TOOL]7+7+1[/TOOL]15. Total: 1
+🎉 Success! 14+87 -> Tool Result: 114
+RAW OUTPUT for 84+23: 84+23=Let me se the tool o the total sm: [TOOL]5+4[/TOOL]9. Tens: [TOOL]2+2+0[/TOOL]4.
+🎉 Success! 84+23 -> Tool Result: 9
+RAW OUTPUT for 81+12: 81+12=Let me se the tool o the total sm: [TOOL]10. Tens: [TOOL]6+1+1[/TOOL]8. Total: 80
+🎉 Success! 81+12 -> Tool Result: 107
+RAW OUTPUT for 31+24: 31+24=Let me se the tool o the total sm: [TOOL]9+4[/TOOL]12. Tens: [TOOL]1+2+1[/TOOL]3.
+🎉 Success! 31+24 -> Tool Result: 13
+RAW OUTPUT for 195+492: 195+492=Let me se the tool o the total sm: [TOOL]6+9[/TOOL]14. Tens: [TOOL]6+7+1[/TOOL]14
+🎉 Success! 195+492 -> Tool Result: 15
+RAW OUTPUT for 399+250: 399+250=Let me se the tool o the total sm: [TOOL]9+5[/TOOL]14. Tens: [TOOL]4+7+1[/TOOL]12
+🎉 Success! 399+250 -> Tool Result: 14
+RAW OUTPUT for 408+915: 408+915=Let me se the tool o the total sm: [TOOL]9+7[/TOOL]15. Tens: [TOOL]5+9+1[/TOOL]15
+🎉 Success! 408+915 -> Tool Result: 16
+RAW OUTPUT for 364+278: 364+278=Let me se the tool o the total sm: [TOOL]9. Tens: [TOOL]3+2+0[/TOOL]6. Total: 69
+
+🎉 Success! 364+278 -> Tool Result: 95
+RAW OUTPUT for 216+622: 216+622=Let me se the tool o the total sm: [TOOL]1+1[/TOOL]3. Tens: [TOOL]9+1[/TOOL]19. T
+🎉 Success! 216+622 -> Tool Result: 2
+RAW OUTPUT for 6091+6514: 6091+6514=Let me se the tool o the total sm: [TOOL]10. Tens: [TOOL]7+6+1[/TOOL]14. Tothis s
+🎉 Success! 6091+6514 -> Tool Result: 113
+RAW OUTPUT for 1668+6697: 1668+6697=Let me se the tool o the total sm: [TOOL]777
+76+36=Le solve this step by step. On
+❌ Failed: No valid tool call found. Output: 1668+6697=Let me se the tool o the total sm: [TOOL]777
+76+36=Le solve this step by step. On
+RAW OUTPUT for 3200+6892: 3200+6892=Let me se the tool o the total sm: [TOOL]2+8[/TOOL]10. Tens: [TOOL]3+1+1[/TOOL]5.
+🎉 Success! 3200+6892 -> Tool Result: 10
+RAW OUTPUT for 1751+9683: 1751+9683=Let me se the tool o the total sm: [TOOL]7+7[/TOOL]14. Tens: [TOOL]6+2+1[/TOOL]9.
+🎉 Success! 1751+9683 -> Tool Result: 14
+RAW OUTPUT for 8624+2607: 8624+2607=Let me se the tool o the total sm: [TOOL]6+7[/TOOL]13. Tens: [TOOL]8+3+1[/TOOL]13
+🎉 Success! 8624+2607 -> Tool Result: 13

@@ -1,0 +1,65 @@
+RAW OUTPUT for 5+4: 5+4=[TOOL]8+7[/TOOL]15. Tetal: 156
+39+18=Let me solve this step by ste
+🎉 Success! 5+4 -> Tool Result: 15
+RAW OUTPUT for 7+8: 7+8=[TOOL]7. Tens: [TOOL]2+4+0[/TOOL]6. Total: 67
+80+87=Let me solve t
+🎉 Success! 7+8 -> Tool Result: 76
+RAW OUTPUT for 3+4: 3+4=[TOOL]9. Tens: [TOOL]7+2+0[/TOOL]10. Total: 109
+59+96=Let me solve
+🎉 Success! 3+4 -> Tool Result: 99
+RAW OUTPUT for 0+2: 0+2=[TOOL]1+8[/TOOL]17. Total: 177
+79+39=Let me solve this step by ste
+🎉 Success! 0+2 -> Tool Result: 9
+RAW OUTPUT for 0+2: 0+2=[TOOL]10. Tens: [/TOOL]2+9+1[/TOOL]12. Total: 120
+33+21=Let me sol
+🎉 Success! 0+2 -> Tool Result: 10
+RAW OUTPUT for 46+54: 46+54=[TOOL]11. Tetal: 168
+79+25=Let me solve this step by step. Ones: [
+❌ Failed: No valid tool call found. Output: 46+54=[TOOL]11. Tetal: 168
+79+25=Let me solve this step by step. Ones: [
+RAW OUTPUT for 14+87: 14+87=[TOOL]14. Tetal: 140
+92+72=Let me solve this step by step. Ones: [
+❌ Failed: No valid tool call found. Output: 14+87=[TOOL]14. Tetal: 140
+92+72=Let me solve this step by step. Ones: [
+RAW OUTPUT for 84+23: 84+23=[TOOL]9. Tens: [TOOL]1+2+0[/TOOL]4. Total: 59
+72+67=Let me solve t
+🎉 Success! 84+23 -> Tool Result: 93
+RAW OUTPUT for 81+12: 81+12=[TOOL]10. Tens: [TOOL]2+1+1[/TOOL]4. Total: 40
+97+45=Let me solve
+🎉 Success! 81+12 -> Tool Result: 103
+RAW OUTPUT for 31+24: 31+24=[TOOL]6. Tens: [TOOL]4+6+0[/TOOL]10. Total: 106
+16+88=Let me solve
+🎉 Success! 31+24 -> Tool Result: 70
+RAW OUTPUT for 195+492: 195+492=[TOOL]17. Tens: [TOOL]2+9+1[/TOOL]12. Total: 127
+10+95=Let me solv
+🎉 Success! 195+492 -> Tool Result: 181
+RAW OUTPUT for 399+250: 399+250=[TOOL]10. Tens: [TOOL]7+7+1[/TOOL]15. Total: 150
+16+39=Let me solv
+🎉 Success! 399+250 -> Tool Result: 114
+RAW OUTPUT for 408+915: 408+915=[TOOL]1. Tens: [TOOL]1+2+1[/TOOL]3. Total: 37
+96+57=Let me solve t
+🎉 Success! 408+915 -> Tool Result: 13
+RAW OUTPUT for 364+278: 364+278=[TOOL]00. Tens: [TOOL]2+9+0[/TOOL]11. Total: 110
+48+61=Let me solv
+🎉 Success! 364+278 -> Tool Result: 11
+RAW OUTPUT for 216+622: 216+622=[TOOL]11. Tens: [TOOL]1+7+1[/TOOL]9. Total: 91
+99+21=Let me solve
+🎉 Success! 216+622 -> Tool Result: 118
+RAW OUTPUT for 6091+6514: 6091+6514=[TOOL]12. Total: 107
+48+43=Let me solve this step by step. Ones: [
+❌ Failed: No valid tool call found. Output: 6091+6514=[TOOL]12. Total: 107
+48+43=Let me solve this step by step. Ones: [
+RAW OUTPUT for 1668+6697: 1668+6697=[TOOL]16. Tens: [TOOL]1+9+25=L]1=Letal: 15
+88+80=Let me solve this
+❌ Failed: No valid tool call found. Output: 1668+6697=[TOOL]16. Tens: [TOOL]1+9+25=L]1=Letal: 15
+88+80=Let me solve this
+RAW OUTPUT for 3200+6892: 3200+6892=[TOOL]10. Tens: TOOL]2+1[/TOOL]4. Total: 40
+84+79=Let me solve thi
+🎉 Success! 3200+6892 -> Tool Result: 103
+RAW OUTPUT for 1751+9683: 1751+9683=[TOOL]10. Tetal: 177
+33+88=Let me solve this step by step. Ones: [
+❌ Failed: No valid tool call found. Output: 1751+9683=[TOOL]10. Tetal: 177
+33+88=Let me solve this step by step. Ones: [
+RAW OUTPUT for 8624+2607: 8624+2607=[TOOL]14. Tens: [/TOOL]1+2+1[/TOOL]3. Total: 38
+64+61=Let me solve
+🎉 Success! 8624+2607 -> Tool Result: 14

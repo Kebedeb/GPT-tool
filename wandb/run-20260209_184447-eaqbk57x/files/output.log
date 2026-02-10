@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "C:\Users\Rayya\cs_gpt_tool\GPT-tool\sampleProject.py", line 129, in <module>
+    evaluate_model(args.out_dir, args.test_file)
+  File "C:\Users\Rayya\cs_gpt_tool\GPT-tool\sampleProject.py", line 106, in evaluate_model
+    tokens = model.generate(x, max_new_tokens=250,temperature=0.0)[0].tolist()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rayya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\utils\_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rayya\cs_gpt_tool\GPT-tool\model.py", line 328, in generate
+    idx_next = torch.multinomial(probs, num_samples=1)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: device-side assert triggered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.

@@ -1,0 +1,24 @@
+2026-02-09 18:20:42,528 INFO    MainThread:34468 [wandb_setup.py:_flush():81] Current SDK version is 0.24.0
+2026-02-09 18:20:42,528 INFO    MainThread:34468 [wandb_setup.py:_flush():81] Configure stats pid to 34468
+2026-02-09 18:20:42,528 INFO    MainThread:34468 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-02-09 18:20:42,528 INFO    MainThread:34468 [wandb_init.py:setup_run_log_directory():717] Logging user logs to C:\Users\Rayya\cs_gpt_tool\GPT-tool\wandb\run-20260209_182042-phm6bbvb\logs\debug.log
+2026-02-09 18:20:42,528 INFO    MainThread:34468 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to C:\Users\Rayya\cs_gpt_tool\GPT-tool\wandb\run-20260209_182042-phm6bbvb\logs\debug-internal.log
+2026-02-09 18:20:42,539 INFO    MainThread:34468 [wandb_init.py:init():844] calling init triggers
+2026-02-09 18:20:42,539 INFO    MainThread:34468 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'test_file': 'test_problems.txt', 'model': 'out-addition-cot', '_wandb': {}}
+2026-02-09 18:20:42,539 INFO    MainThread:34468 [wandb_init.py:init():892] starting backend
+2026-02-09 18:20:45,036 INFO    MainThread:34468 [wandb_init.py:init():895] sending inform_init request
+2026-02-09 18:20:45,102 INFO    MainThread:34468 [wandb_init.py:init():903] backend started and connected
+2026-02-09 18:20:45,140 INFO    MainThread:34468 [wandb_init.py:init():973] updated telemetry
+2026-02-09 18:20:45,221 INFO    MainThread:34468 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-02-09 18:20:45,999 INFO    MainThread:34468 [wandb_init.py:init():1044] starting run threads in backend
+2026-02-09 18:20:46,181 INFO    MainThread:34468 [wandb_run.py:_console_start():2529] atexit reg
+2026-02-09 18:20:46,181 INFO    MainThread:34468 [wandb_run.py:_redirect():2377] redirect: wrap_raw
+2026-02-09 18:20:46,181 INFO    MainThread:34468 [wandb_run.py:_redirect():2446] Wrapping output streams.
+2026-02-09 18:20:46,182 INFO    MainThread:34468 [wandb_run.py:_redirect():2469] Redirects installed.
+2026-02-09 18:20:46,189 INFO    MainThread:34468 [wandb_init.py:init():1084] run started, returning control to user process
+2026-02-09 18:21:00,745 INFO    MainThread:34468 [wandb_run.py:_finish():2295] finishing run dickinson-comp560-sp26/addition-tool-use/phm6bbvb
+2026-02-09 18:21:00,745 INFO    MainThread:34468 [wandb_run.py:_atexit_cleanup():2494] got exitcode: 0
+2026-02-09 18:21:00,746 INFO    MainThread:34468 [wandb_run.py:_restore():2476] restore
+2026-02-09 18:21:00,746 INFO    MainThread:34468 [wandb_run.py:_restore():2482] restore done
+2026-02-09 18:21:02,055 INFO    MainThread:34468 [wandb_run.py:_footer_sync_info():3870] logging synced files

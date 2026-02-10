@@ -1,0 +1,33 @@
+🎉 Success! 5+4 -> Tool Result: 88
+🎉 Success! 7+8 -> Tool Result: 23
+🎉 Success! 3+4 -> Tool Result: 16
+🎉 Success! 0+2 -> Tool Result: 4
+🎉 Success! 0+2 -> Tool Result: 7
+🎉 Success! 46+54 -> Tool Result: 12
+🎉 Success! 14+87 -> Tool Result: 5
+🎉 Success! 84+23 -> Tool Result: 12
+Traceback (most recent call last):
+  File "C:\Users\Rayya\cs_gpt_tool\GPT-tool\sampleProject.py", line 122, in <module>
+    evaluate_model(args.out_dir, args.test_file)
+  File "C:\Users\Rayya\cs_gpt_tool\GPT-tool\sampleProject.py", line 99, in evaluate_model
+    tokens = model.generate(x, max_new_tokens=100)[0].tolist()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rayya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\utils\_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rayya\cs_gpt_tool\GPT-tool\model.py", line 318, in generate
+    logits, _ = self(idx_cond)
+                ^^^^^^^^^^^^^^
+  File "C:\Users\Rayya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rayya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rayya\cs_gpt_tool\GPT-tool\model.py", line 192, in forward
+    logits = self.lm_head(x[:, [-1], :]) # note: using list [-1] to preserve the time dim
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rayya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1732, in _wrapped_call_impl
+    def _wrapped_call_impl(self, *args, **kwargs):
+
+KeyboardInterrupt

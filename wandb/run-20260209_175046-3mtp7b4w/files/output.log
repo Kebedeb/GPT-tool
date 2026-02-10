@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\Rayya\cs_gpt_tool\GPT-tool\sampleProject.py", line 109, in <module>
+    evaluate_model(args.out_dir, args.test_file)
+  File "C:\Users\Rayya\cs_gpt_tool\GPT-tool\sampleProject.py", line 87, in evaluate_model
+    output = decode(tokens) # Turn numbers into text like "[TOOL]1+2[/TOOL]"
+             ^^^^^^^^^^^^^^
+  File "C:\Users\Rayya\cs_gpt_tool\GPT-tool\sampleProject.py", line 60, in <lambda>
+    decode = lambda l: ''.join([itos[i] for i in l])
+                                ~~~~^^^
+KeyError: 13412

@@ -1,0 +1,12 @@
+{"time":"2026-02-09T19:51:16.2026826-05:00","level":"INFO","msg":"stream: starting","core version":"0.24.0"}
+{"time":"2026-02-09T19:51:16.4507263-05:00","level":"INFO","msg":"stream: created new stream","id":"abc9cavz"}
+{"time":"2026-02-09T19:51:16.4514283-05:00","level":"INFO","msg":"handler: started","stream_id":"abc9cavz"}
+{"time":"2026-02-09T19:51:16.4537148-05:00","level":"INFO","msg":"stream: started","id":"abc9cavz"}
+{"time":"2026-02-09T19:51:16.4537148-05:00","level":"INFO","msg":"writer: started","stream_id":"abc9cavz"}
+{"time":"2026-02-09T19:51:16.4537148-05:00","level":"INFO","msg":"sender: started","stream_id":"abc9cavz"}
+{"time":"2026-02-09T19:51:23.2083385-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-09T19:51:23.3190175-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-09T19:51:23.3254914-05:00","level":"INFO","msg":"stream: closing","id":"abc9cavz"}
+{"time":"2026-02-09T19:51:23.3254914-05:00","level":"INFO","msg":"handler: closed","stream_id":"abc9cavz"}
+{"time":"2026-02-09T19:51:23.3347935-05:00","level":"INFO","msg":"sender: closed","stream_id":"abc9cavz"}
+{"time":"2026-02-09T19:51:23.3347935-05:00","level":"INFO","msg":"stream: closed","id":"abc9cavz"}

@@ -1,0 +1,48 @@
+RAW OUTPUT for 5+4: 5+4=[TOOL]5+8+1[/TOOL]14.
+🎉 Success! 5+4 -> Tool Result: 13
+RAW OUTPUT for 7+8: 7+8=[TOOL]10. Tens: [TOOL
+❌ Failed: No valid tool call found. Output: 7+8=[TOOL]10. Tens: [TOOL
+RAW OUTPUT for 3+4: 3+4=[TOOL]7+7[/TOOL]15. T
+🎉 Success! 3+4 -> Tool Result: 14
+RAW OUTPUT for 0+2: 0+2=[TOOL]6. Total: 68
+49
+❌ Failed: No valid tool call found. Output: 0+2=[TOOL]6. Total: 68
+49
+RAW OUTPUT for 0+2: 0+2=[TOOL]6. Tens: [TOOL]
+❌ Failed: No valid tool call found. Output: 0+2=[TOOL]6. Tens: [TOOL]
+RAW OUTPUT for 46+54: 46+54=[TOOL]12. Tens: [TOOL
+❌ Failed: No valid tool call found. Output: 46+54=[TOOL]12. Tens: [TOOL
+RAW OUTPUT for 14+87: 14+87=[TOOL]10. Tetal: 109
+
+❌ Failed: No valid tool call found. Output: 14+87=[TOOL]10. Tetal: 109
+
+RAW OUTPUT for 84+23: 84+23=[TOOL]9. Tens: [TOOL]
+❌ Failed: No valid tool call found. Output: 84+23=[TOOL]9. Tens: [TOOL]
+RAW OUTPUT for 81+12: 81+12=[TOOL]9. Tens: [TOOL]
+❌ Failed: No valid tool call found. Output: 81+12=[TOOL]9. Tens: [TOOL]
+RAW OUTPUT for 31+24: 31+24=[TOOL]8. Tens: [TOOL]
+❌ Failed: No valid tool call found. Output: 31+24=[TOOL]8. Tens: [TOOL]
+RAW OUTPUT for 195+492: 195+492=[TOOL]19. Tetal: 1969
+❌ Failed: No valid tool call found. Output: 195+492=[TOOL]19. Tetal: 1969
+RAW OUTPUT for 399+250: 399+250=[TOOL]19. Tens: [TOOL
+❌ Failed: No valid tool call found. Output: 399+250=[TOOL]19. Tens: [TOOL
+RAW OUTPUT for 408+915: 408+915=[TOOL]6. Tens: [TOOL]
+❌ Failed: No valid tool call found. Output: 408+915=[TOOL]6. Tens: [TOOL]
+RAW OUTPUT for 364+278: 364+278=[TOOL]10. Tens: [TOOL
+❌ Failed: No valid tool call found. Output: 364+278=[TOOL]10. Tens: [TOOL
+RAW OUTPUT for 216+622: 216+622=[TOOL]9. Tens: [TOOL]
+❌ Failed: No valid tool call found. Output: 216+622=[TOOL]9. Tens: [TOOL]
+RAW OUTPUT for 6091+6514: 6091+6514=[TOOL]10. Total: 109
+
+❌ Failed: No valid tool call found. Output: 6091+6514=[TOOL]10. Total: 109
+
+RAW OUTPUT for 1668+6697: 1668+6697=[TOOL]14. Tens: [TOOL
+❌ Failed: No valid tool call found. Output: 1668+6697=[TOOL]14. Tens: [TOOL
+RAW OUTPUT for 3200+6892: 3200+6892=[TOOL]13. Tetal: 108
+
+❌ Failed: No valid tool call found. Output: 3200+6892=[TOOL]13. Tetal: 108
+
+RAW OUTPUT for 1751+9683: 1751+9683=[TOOL]9+5=Let TOOL]15
+❌ Failed: No valid tool call found. Output: 1751+9683=[TOOL]9+5=Let TOOL]15
+RAW OUTPUT for 8624+2607: 8624+2607=[TOOL]5. Tens: [TOOL]
+❌ Failed: No valid tool call found. Output: 8624+2607=[TOOL]5. Tens: [TOOL]

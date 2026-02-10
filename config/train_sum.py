@@ -1,5 +1,5 @@
 import wandb
-
+init_from = 'scratch'
 dataset = 'tool'
 out_dir = 'out-addition-cot'
 eval_interval = 250

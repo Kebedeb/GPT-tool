@@ -1,0 +1,12 @@
+{"time":"2026-02-09T18:33:51.6505217-05:00","level":"INFO","msg":"stream: starting","core version":"0.24.0"}
+{"time":"2026-02-09T18:33:51.8949291-05:00","level":"INFO","msg":"stream: created new stream","id":"3fog50yk"}
+{"time":"2026-02-09T18:33:51.8949291-05:00","level":"INFO","msg":"handler: started","stream_id":"3fog50yk"}
+{"time":"2026-02-09T18:33:51.8978727-05:00","level":"INFO","msg":"stream: started","id":"3fog50yk"}
+{"time":"2026-02-09T18:33:51.8978727-05:00","level":"INFO","msg":"sender: started","stream_id":"3fog50yk"}
+{"time":"2026-02-09T18:33:51.8978727-05:00","level":"INFO","msg":"writer: started","stream_id":"3fog50yk"}
+{"time":"2026-02-09T18:35:01.780678-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/dickinson-comp560-sp26/addition-tool-use/3fog50yk/file_stream\": write tcp 172.18.59.121:53292->35.186.228.49:443: wsasend: An existing connection was forcibly closed by the remote host."}
+{"time":"2026-02-09T18:35:24.8349435-05:00","level":"INFO","msg":"stream: closing","id":"3fog50yk"}
+{"time":"2026-02-09T18:35:25.1869858-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-09T18:35:25.3447452-05:00","level":"INFO","msg":"handler: closed","stream_id":"3fog50yk"}
+{"time":"2026-02-09T18:35:25.345318-05:00","level":"INFO","msg":"sender: closed","stream_id":"3fog50yk"}
+{"time":"2026-02-09T18:35:25.345318-05:00","level":"INFO","msg":"stream: closed","id":"3fog50yk"}

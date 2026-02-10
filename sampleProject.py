@@ -4,24 +4,67 @@ from model import GPTConfig, GPT
 from sum import sum as my_sum_tool 
 import wandb
 import tiktoken
+import re
+import pickle
 
 def process_tool_call(generated_text):
     """
     Extracts numbers from [TOOL]...[/TOOL] and calls sum.py.
     """
-    if "[TOOL]" in generated_text and "[/TOOL]" in generated_text:
-        
+    # Find only the FIRST [TOOL]...[/TOOL] block
+    match = re.search(r"\[TOOL\](.*?)\[/TOOL\]", generated_text)
+    if match:
         try:
-            expression = generated_text.split("[TOOL]")[1].split("[/TOOL]")[0]
-            parts = expression.split('+')
+            expression = match.group(1)
+            # Clean out any accidental text the model might have put in the tag
+            clean_expr = re.sub(r'[^0-9+]', '', expression)
             
-            if len(parts) == 2:
-                arg1 = int(parts[0].strip())
-                arg2 = int(parts[1].strip())
-                return str(my_sum_tool(arg1, arg2))
-        except Exception as e:
-            return f"Error: {e}"
+            if '+' in clean_expr:
+                parts = clean_expr.split('+')
+                return str(my_sum_tool(int(parts[0]), int(parts[1])))
+            else:
+                # If it's just a single number like [TOOL]9[/TOOL], return it
+                return clean_expr
+        except:
+            return "Error"
     return None
+    # match = re.search(r"\[TOOL\](.*?)\[/TOOL\]", generated_text, re.DOTALL)
+    
+    # if match:
+    #     try:
+    #         expression = match.group(1) # This is just the "9" or "2+9+0"
+    #         # Clean it like we did before
+    #         clean_expr = re.sub(r'[^0-9+]', '', expression)
+            
+    #         # If the model only put one number (like [TOOL]9[/TOOL]),
+    #         # we can't split by '+'. Handle that case:
+    #         if '+' in clean_expr:
+    #             parts = clean_expr.split('+')
+    #             return str(my_sum_tool(int(parts[0]), int(parts[1])))
+    #         else:
+    #             # If it's just a single number, return it as the "result"
+    #             return clean_expr
+                
+    #     except Exception as e:
+    #         return f"Error: {e}"
+    # return None
+
+
+    # if "[TOOL]" in generated_text and "[/TOOL]" in generated_text:
+        
+    #     try:
+    #         expression = generated_text.split("[TOOL]")[1].split("[/TOOL]")[0]
+    #         clean_expr = re.sub(r'[^0-9+]', '', expression)
+        
+    #         parts = clean_expr.split('+')
+            
+    #         if len(parts) == 2:
+    #             arg1 = int(parts[0].strip())
+    #             arg2 = int(parts[1].strip())
+    #             return str(my_sum_tool(arg1, arg2))
+    #     except Exception as e:
+    #         return f"Error: {e}"
+    # return None
 
 
 
@@ -46,10 +89,20 @@ def evaluate_model(out_dir, test_file):
     
 
     # 2. Setup Tokenizer (TikToken)
-    print("Using TikToken encoding (GPT-2)")
-    enc = tiktoken.get_encoding("gpt2")
-    encode = lambda s: enc.encode(s, allowed_special={"<|endoftext|>"})
-    decode = lambda l: enc.decode(l)
+    meta_path = os.path.join('data', 'tool', 'meta.pkl')
+    if os.path.exists(meta_path):
+        print(f"Loading character-level meta from {meta_path}...")
+        with open(meta_path, 'rb') as f:
+            meta = pickle.load(f)
+        stoi, itos = meta['stoi'], meta['itos']
+        encode = lambda s: [stoi[c] for c in s if c in stoi]
+        decode = lambda l: ''.join([itos[i] for i in l])
+    else:
+        print("CRITICAL ERROR: meta.pkl not found! Math will be inaccurate.")
+        print("Using TikToken encoding (GPT-2)")
+        enc = tiktoken.get_encoding("gpt2")
+        encode = lambda s: enc.encode(s, allowed_special={"<|endoftext|>"})
+        decode = lambda l: enc.decode(l)
 
     # 3. Initialize WandB ONCE (Before the loop)
     wandb.init(
@@ -65,12 +118,18 @@ def evaluate_model(out_dir, test_file):
 
     for prob in problems:
 
-        input_text = prob + "[TOOL]"
+        ##input_text = prob + "[TOOL]"
+        #input_text = prob + " = [TOOL]"
+        input_text = prob + "=[TOOL]"
         x = torch.tensor(encode(input_text), dtype=torch.long, device=device)[None, ...]
 
         
-        tokens = model.generate(x, max_new_tokens=100)[0].tolist()
+        tokens = model.generate(x, max_new_tokens=60)[0].tolist()
         output = decode(tokens) # Turn numbers into text like "[TOOL]1+2[/TOOL]"
+        ##debug check
+        print(f"RAW OUTPUT for {prob}: {output}")
+
+
         tool_result = process_tool_call(output) # Now the tool call can actually find "[TOOL]"
 
         if tool_result: 
